@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header-footer.css" />
+    <link rel="stylesheet" href="css/book.css">
+
+</head>
+
+<body>
+
+    <!-- header-section -->
+
+    <header class="header-section">
+        <nav class="navbar">
+            <div class="container">
+                <section class="wrapper">
+                    <a href="./index.html" class="logo"><img src="img/Avani - Logo (2).png" alt=""></a>
+                    <button class="menu-icon burger" id="burger"
+                        onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                        aria-label="Main Menu">
+                        <svg width="40" height="40" viewBox="0 0 100 100">
+                            <path class="line line1"
+                                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                            <path class="line line2" d="M 20,50 H 80" />
+                            <path class="line line3"
+                                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                        </svg>
+                    </button>
+                    <div class="menu" id="menu">
+                        <ul class="menu-inner">
+                            <li class="item-list">
+                                <a class="item-link l5" href="#">Home</a>
+                            </li>
+                            <li class="item-list">
+                                <a class="item-link l5" href="#">Contact Us</a>
+                            </li>
+                            <li class="item-list">
+                                <a class="item-link l5" href="#">Book now</a>
+                            </li>
+                            <li class="item-list">
+                                <a class="item-link l5" href="#">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main - section  -->
+    <main class="main-section">
+        <div class="booking-form">
+            <form action="#" method="post">
+                <h2 class="sub-heading">Booking Details</h2>
+                <div class="form-field">
+                    <div class="field-selection form-text1">
+                        <div class="field-selection form-text1">
+                            <input type="text" name="Name" placeholder="Start Destinatoin" required="">
+                        </div>
+                    </div>
+                    <div class="field-selection form-text2">
+                        <div class="field-selection form-text1">
+                            <input type="text" name="Name" placeholder="End Destinatoin" required="">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <div class="field-selection form-text1">
+                        <input id="datepicker" name="Text" type="date" placeholder="Departure Date" value=""
+                            onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
+                            required="" class="hasDatepicker">
+                    </div>
+                    <div class="field-selection form-text2">
+                        <input type="time" id="timepicker" name="Time" class="timepicker form-control hasWickedpicker"
+                            placeholder="Departure Time" value="" onkeypress="return false;">
+                    </div>
+                </div>
+
+                <div class="radio-section">
+                    <div class="field-selection form-text2">
+                        <select class="form-control">
+                            <option>Car Type</option>
+                            <option value="Hatchback">Hatchback</option>
+                            <option value="Sedan">Sedan</option>
+                            <option value="SUV">SUV</option>
+                            <option value="Innova">Innova</option>
+                        </select>
+                    </div>
+                    <ul class="radio-buttons">
+                        <li>
+                            <h6>Select your Fare</h6>
+                        </li>
+                        <li>
+                            <input type="radio" id="radio-a-option" name="selector1">
+                            <label for="a-option">One Way</label>
+                            <div class="check"></div>
+                        </li>
+                        <li>
+                            <input type="radio" id="radio-b-option" name="selector1">
+                            <label for="b-option">Round-Trip</label>
+                            <div class="check">
+                                <div class="inside"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-field round-trip-hide">
+                    <div class="field-selection form-text1">
+                        <input id="datepicker" name="Text" type="date" placeholder="Return Date" value=""
+                            onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
+                            required="" class="hasDatepicker">
+                    </div>
+                    <div class="field-selection form-text2">
+                        <input type="time" id="timepicker1" name="Time" class="timepicker form-control hasWickedpicker"
+                            placeholder="Return Time" value="" onkeypress="return false;">
+                    </div>
+                </div>
+                <h3 class="sub-heading">Personal Details</h3>
+                <div class="form-field">
+                    <div class="field-selection form-text1">
+                        <input type="text" name="Name" placeholder="Full Name" required="">
+                    </div>
+                    <div class="field-selection form-text2">
+                        <input type="text" name="Phone no" placeholder="Phone Number" required="">
+                    </div>
+                </div>
+                <div class="field-selection form-w3-agile-text">
+                    <input type="email" name="Email" placeholder="Email" required="">
+                </div>
+                <div class="clear"></div>
+                <div class="form-button">
+                    <input class="primary-button submit" type="submit" value="Submit">
+                    <input class="primary-button reset" type="reset" value="Reset">
+                </div>
+                <div class="clear"></div>
+            </form>
+        </div>
+    </main>
+
+    <!-- footer-section -->
+
+    <footer>
+
+        <div class="top_header">
+            <section>
+                <span class="icon"><i class="fa fa-map-marker-alt"></i></span>
+                <span>Gurukul , Gandhidham-Kutch , India , 370201 </span>
+            </section>
+            <section>
+                <span><i class="fa fa-phone"></i></span>
+                <span>(+91) 96646 62970 </span>
+            </section>
+            <section>
+                <span><i class="fa fa-envelope"></i></span>
+                <span>hello@loremipsum.com</span>
+            </section>
+        </div>
+        <span class="border-shape"></span>
+        <div class="bottom_content">
+            <section>
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Book now</a>
+            </section>
+        </div>
+        <div class="copyright">
+            Copyright Avani Tour Travels 2022 - All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header-footer.css" />
+</head>
+
+<body>
+    <!-- header-section -->
+
+    <header class="header-section">
+        <nav class="navbar">
+            <div class="container">
+                <section class="wrapper">
+                    <a href="./index.html" class="logo"><img src="img/Avani - Logo (2).png" alt=""></a>
+                    <button class="menu-icon burger" id="burger"
+                        onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                        aria-label="Main Menu">
+                        <svg width="40" height="40" viewBox="0 0 100 100">
+                            <path class="line line1"
+                                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                            <path class="line line2" d="M 20,50 H 80" />
+                            <path class="line line3"
+                                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                        </svg>
+                    </button>
+                    <div class="menu" id="menu">
+                        <ul class="menu-inner">
+                            <li class="item-list">
+                                <a class="item-link l5" href="#">Home</a>
+                            </li>
+                            <li class="item-list">
+                                <a class="item-link l5" href="#">Contact Us</a>
+                            </li>
+                            <li class="item-list">
+                                <a class="item-link l5" href="#">Book now</a>
+                            </li>
+                            <li class="item-list">
+                                <a class="item-link l5" href="#">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main-sectoin -->
+
+    <main class="main-section">
+
+        <!-- Home-banner-sectoin -->
+
+        <section class="testimonial-slider home-banner">
+            <div class="slider-items">
+                <img class="slider__image" src="./img/taxi-5256235.jpg" alt="" />
+                <div class="title-wrapper">
+                    <h2> Wide range </h2>
+                    <p>
+                        We have a wide range of vehicles in our fleet choose from. which
+                        are always readyto book.
+                    </p>
+                </div>
+            </div>
+            <div class="slider-items">
+                <img class="slider__image" src="./img/navigation.jpg" alt="" />
+                <div class="title-wrapper">
+                    <h2>Accuracy</h2>
+                        <p>
+                            We will provide you best service for any Routes according to
+                            bestt rout to you destination.
+                        </p>
+                </div>
+            </div>
+            <div class="slider-items">
+                <img class="slider__image" src="./img/Airport-travel.jpg" alt="" />
+                <div class="title-wrapper">
+                    <h2>Punctuality</h2>
+                    <p>
+                        We promise to our customer to drop your location accordingto
+                        given time.
+                    </p>
+                </div>
+            </div>
+            <div class="slider-items">
+                <img class="slider__image" src="./img/cleaning.jpg" alt="" />
+                <div class="title-wrapper">
+                    <h2>Cleanliness</h2>
+                    <p>
+                        We provide best car which is fully cleaning and Sanitize and
+                        maintain hygiene car for your services
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--  home-car-booking-section  -->
+
+        <section class="home-car-booking-section">
+            <div class="container">
+                <div class="book-slot-section">
+                    <div class="title-wrapper">
+                        <h2>Our Economic Fleet</h2>
+                        <p>
+                            We provide with best and reliable economic cars on rent for
+                            Travelling, Business Deal and Personal occasions. We offer cars
+                            like Toyota Etios, Maruti Swift Dzire, Maruti Ertiga, Hyundai
+                            Xcent, Toyota Innova, Toyota Innova Crysta with certified
+                            drivers, Clean and Sanitize Cars. We also take custom orders and
+                            will help you acquire a specific car.
+                        </p>
+                    </div>
+                    <div class="row row-1">
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <img class="image__img" src="./img/Maruti_Swift-x398.webp" alt="Hatchback Car" />
+                                    <h3>Hatchback Car</h3>
+                                    <p> (Swift , RItz , Liva)</p>
+                                    <p>From ₹8 / Km</p>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <div class="book-slot__description">
+                                        <p>Per Day Limit 300 Km</p>
+                                        <p>Night Charges ₹200</p>
+                                        <p>Toll Tax/ Parking Extra</p>
+                                        <a href="#" class="primary-button"> Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <img class="image__img" src="./img/DzireOxfordBluemergednew image black-v3.webp"
+                                        alt="Sedan Car" />
+                                    <h3>Sedan Car</h3>
+                                    <p> (Swift-desire , Etios , Excent)</p>
+                                    <p>From ₹9 / Km</p>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <div class="book-slot__description">
+                                        <p>Per Day Limit 300 Km</p>
+                                        <p>Night Charges ₹200</p>
+                                        <p>Toll Tax/ Parking Extra</p>
+                                        <a href="#" class="primary-button"> Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <img class="image__img" src="./img/ertiga-1502362275-prod-var.png" alt="SUV Car " />
+                                    <h3>SUV Car</h3>
+                                    <p> (Ertiga , Marazzo , Travellers)</p>
+                                    <p>From ₹11 / Km</p>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <div class="book-slot__description">
+                                        <p>Per Day Limit 300 Km</p>
+                                        <p>Night Charges ₹200</p>
+                                        <p>Toll Tax/ Parking Extra</p>
+                                        <a href="#" class="primary-button"> Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <img class="image__img" src="./img/download.jpeg" alt="Innova Car" />
+                                    <h3>Innova Car</h3>
+                                    <p> (Innova , Innova-Crysta)</p>
+                                    <p>From ₹14 / Km</p>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <div class="book-slot__description">
+                                        <p>Per Day Limit 300 Km</p>
+                                        <p>Night Charges ₹200</p>
+                                        <p>Toll Tax/ Parking Extra</p>
+                                        <a href="#" class="primary-button"> Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  service-block  -->
+
+        <section class="service-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 content-block">
+                        <div class="title-wrapper">
+                            <h2>Our Services</h2>
+                            <p>
+                                We created our taxi to help you to to find the most dependable
+                                and highest quality taxi services, anytime and anywhere. All
+                                our drivers are uniformed and fully licensed. We provide you
+                                best servie in the all area
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <div class="service-block-wrapper">
+                            <ul class="Services">
+                                <li class="Service-item icon-1">
+                                    <span class="icon"><i class="fa fa-map-marker-alt"></i></span>
+                                    <h3>Address Pickup</h3>
+                                    <p>
+                                        We always pick up our clients on time, 24/7 availability.
+                                    </p>
+                                </li>
+                                <li class="Service-item icon-2">
+                                    <span class="icon"><i class="fa fa-plane-departure"></i></span>
+                                    <h3>Airport Transfer</h3>
+                                    <p>
+                                        GetCab specialized in 24 hours airport transfer service.
+                                    </p>
+                                </li>
+                                <li class="Service-item icon-3">
+                                    <span class="icon"><i class="fa fa-map-marked-alt"></i></span>
+                                    <h3>Long Distance</h3>
+                                    <p>
+                                        We offer you a long distance taxi service to anywhere.
+                                    </p>
+                                </li>
+                                <li class="Service-item icon-4">
+                                    <span class="icon"><i class="fa fa-taxi"></i></span>
+                                    <h3>Taxi Tours</h3>
+                                    <p>
+                                        We offer taxi tours of various durations and complexity.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  home-booking-section -->
+
+        <section class="home-booking-section">
+            <div class="container">
+                <div class="book-slot-section">
+                    <div class="title-wrapper">
+                        <h2>Our Best Routes</h2>
+                    </div>
+                    <div class="row row-1">
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <span class="icon"><i class="fa fa-taxi"></i></span>
+                                    <h3>Gandhidham to Ahmedabad</h3>
+                                    <p>( One Way )</p>
+                                    <span class="booking-option">
+                                        Hatchback Car - ₹ 2999/-
+                                    </span>
+                                    <span class="booking-option"> Sedan Car - ₹ 3499/- </span>
+                                    <span class="booking-option"> SUV Car - ₹ 3999/- </span>
+                                    <span class="booking-option"> Innova Car - ₹ 4999/- </span>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <p class="book-slot__description">
+                                        For more details and know the latest price you can contact and book your ride
+                                        and we will reach you as sson as possible.
+                                    </p>
+                                    <a href="#" class="primary-button"> Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <span class="icon"><i class="fa fa-taxi"></i></span>
+                                    <h3>Gandhidham to Vadodara</h3>
+                                    <p>( One Way )</p>
+                                    <span class="booking-option">
+                                        Hatchback Car - ₹ 3999/-
+                                    </span>
+                                    <span class="booking-option"> Sedan Car - ₹ 4999/- </span>
+                                    <span class="booking-option"> SUV Car - ₹ 5999/- </span>
+                                    <span class="booking-option"> Innova Car - ₹ 6999/- </span>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <p class="book-slot__description">
+                                        For more details and know the latest price you can contact and book your ride
+                                        and we will reach you as sson as possible.
+                                    </p>
+                                    <a href="#" class="primary-button"> Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <span class="icon"><i class="fa fa-taxi"></i></span>
+                                    <h3>Gandhidham to Surat</h3>
+                                    <p>( One Way )</p>
+                                    <span class="booking-option">
+                                        Hatchback Car - ₹ 5999/-
+                                    </span>
+                                    <span class="booking-option"> Sedan Car - ₹ 6999/- </span>
+                                    <span class="booking-option"> SUV Car - ₹ 7999/- </span>
+                                    <span class="booking-option"> Innova Car - ₹ 8999/- </span>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <p class="book-slot__description">
+                                        For more details and know the latest price you can contact and book your ride
+                                        and we will reach you as sson as possible.
+                                    </p>
+                                    <a href="#" class="primary-button"> Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <span class="icon"><i class="fa fa-taxi"></i></span>
+                                    <h3>Gandhidham to Mumbai</h3>
+                                    <p>( One Way )</p>
+                                    <span class="booking-option">
+                                        Hatchback Car - ₹ 9999/-
+                                    </span>
+                                    <span class="booking-option"> Sedan Car - ₹ 11499/- </span>
+                                    <span class="booking-option"> SUV Car - ₹ 12999/- </span>
+                                    <span class="booking-option"> Innova Car - ₹ 13999/- </span>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <p class="book-slot__description">
+                                        For more details and know the latest price you can contact and book your ride
+                                        and we will reach you as sson as possible.
+                                    </p>
+                                    <a href="#" class="primary-button"> Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-2">
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <span class="icon"><i class="fa fa-taxi"></i></span>
+                                    <h3> Ahmedabad to Bhuj </h3>
+                                    <p>( One Way )</p>
+                                    <span class="booking-option">
+                                        Hatchback Car - ₹ 3999/-
+                                    </span>
+                                    <span class="booking-option"> Sedan Car - ₹ 4499/- </span>
+                                    <span class="booking-option"> SUV Car - ₹ 4999/- </span>
+                                    <span class="booking-option"> Innova Car - ₹ 5999/- </span>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <p class="book-slot__description">
+                                        For more details and know the latest price you can contact and book your ride
+                                        and we will reach you as sson as possible.
+                                    </p>
+                                    <a href="#" class="primary-button"> Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <span class="icon"><i class="fa fa-taxi"></i></span>
+                                    <h3>Ahmedabad to Udaipur </h3>
+                                    <p>( One Way )</p>
+                                    <span class="booking-option">
+                                        Hatchback Car - ₹ 2999/-
+                                    </span>
+                                    <span class="booking-option"> Sedan Car - ₹ 3499/- </span>
+                                    <span class="booking-option"> SUV Car - ₹ 3999/- </span>
+                                    <span class="booking-option"> Innova Car - ₹ 4999/- </span>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <p class="book-slot__description">
+                                        For more details and know the latest price you can contact and book your ride
+                                        and we will reach you as sson as possible.
+                                    </p>
+                                    <a href="#" class="primary-button"> Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <span class="icon"><i class="fa fa-taxi"></i></span>
+                                    <h3>Ahmedabad to Kota</h3>
+                                    <p>( One Way )</p>
+                                    <span class="booking-option">
+                                        Hatchback Car - ₹ 5999/-
+                                    </span>
+                                    <span class="booking-option"> Sedan Car - ₹ 6999/- </span>
+                                    <span class="booking-option"> SUV Car - ₹ 7999/- </span>
+                                    <span class="booking-option"> Innova Car - ₹ 8999/- </span>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <p class="book-slot__description">
+                                        For more details and know the latest price you can contact and book your ride
+                                        and we will reach you as sson as possible.
+                                    </p>
+                                    <a href="#" class="primary-button"> Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-12 book-slot-item">
+                            <div class="book-slot">
+                                <div class="book-content">
+                                    <span class="icon"><i class="fa fa-taxi"></i></span>
+                                    <h3>Ahmedabad to Jaipur</h3>
+                                    <p>( One Way )</p>
+                                    <span class="booking-option">
+                                        Hatchback Car - ₹ 7999/-
+                                    </span>
+                                    <span class="booking-option"> Sedan Car - ₹ 8999/- </span>
+                                    <span class="booking-option"> SUV Car - ₹ 9999/- </span>
+                                    <span class="booking-option"> Innova Car - ₹ 10999/- </span>
+                                </div>
+                                <div class="book-slot__overlay book-slot__overlay--primary">
+                                    <div class="book-slot__title">More Information</div>
+                                    <p class="book-slot__description">
+                                        For more details and know the latest price you can contact and book your ride
+                                        and we will reach you as sson as possible.
+                                    </p>
+                                    <a href="#" class="primary-button"> Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  home-booking-section -->
+
+        <section class="home-content-section">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2>Why Choose Us</h2>
+                    <p>
+                        Hiring cars has become simple and cost-effective with Avani
+                        Travel. we have been serving car rental needs of travelers of all
+                        profiles. Our fleet is inclusive of different models of cars
+                        categorized under economy, luxury, and standard among others. We
+                        offer different options to meet the budget and luxury travel
+                        demands of the clients. Since incorporation in 2012, we have been
+                        rendering taxi service in all over gujarat. One can get in touch
+                        with us for book cars on hourly, weekly, and daily rental basis.
+                        Our service charges are reasonable and we provide facility to book
+                        a car of your choice in urgent or advanced basis.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-xl-3 col-12">
+                        <div class="content-block-wrapper">
+                            <div class="content">
+                                <span class="icon"><i class="fa fa-calendar-check"></i></span>
+                                <h4>Easy Online Booking</h4>
+                            </div>
+                            <p>
+                                Booking cab online is easy with our site. Just fill out the
+                                booking form and we will contact you as soon as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3 col-12">
+                        <div class="content-block-wrapper">
+                            <div class="content">
+                                <span class="icon"><i class="fa fa-taxi"></i></span>
+                                <h4>Wide Range Of Vehicles</h4>
+                            </div>
+                            <p>
+                                We will provide a wide range of option to choose from Our
+                                fleet includes are Wagon-R, Dzire, Ertiga, Innova, Marazzo and
+                                Temo Travellers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3 col-12">
+                        <div class="content-block-wrapper">
+                            <div class="content">
+                                <span class="icon"><i class="fa fa-user-shield"></i></span>
+                                <h4>Customer Safety</h4>
+                            </div>
+                            <p>
+                                We will provude the safety for you and your family which is
+                                our graet achievement and award for us
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3 col-12">
+                        <div class="content-block-wrapper">
+                            <div class="content">
+                                <span class="icon"><i class="fa fa-star"></i></span>
+                                <h4>Professional Drivers</h4>
+                            </div>
+                            <p>
+                                Our Drivers are Professional and friendly drivers are always
+                                waiting to serve you. All our Driver's and Cab's are Verified.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer-section -->
+
+    <footer>
+        <div class="top_header">
+            <section>
+                <span class="icon"><i class="fa fa-map-marker-alt"></i></span>
+                <span>Gurukul , Gandhidham-Kutch , India , 370201 </span>
+            </section>
+            <section>
+                <span><i class="fa fa-phone"></i></span>
+                <span>(+91) 96646 62970 </span>
+            </section>
+            <section>
+                <span><i class="fa fa-envelope"></i></span>
+                <span>hello@loremipsum.com</span>
+            </section>
+        </div>
+        <span class="border-shape"></span>
+        <div class="bottom_content">
+            <section>
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Book now</a>
+            </section>
+        </div>
+        <div class="copyright">
+            Copyright Avani Tour Travels 2022 - All rights reserved
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
